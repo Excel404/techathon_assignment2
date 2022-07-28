@@ -27,7 +27,7 @@ const SignUp = () => {
     const [emailIsValid, setEmailIsValid] = useState(false); 
     const [passwordIsValid, setPasswordIsValid] = useState(false); 
     const [confirmPasswordIsValid, setConfirmPasswordIsValid] = useState(false); 
-    const [phoneNumberIsValid, setPhoneNumberIsValid] = useState(false); 
+    //const [phoneNumberIsValid, setPhoneNumberIsValid] = useState(false); 
     const [passwordType, setPasswordType] = useState('password'); 
     const [passwordType1, setPasswordType1] = useState('password'); 
     const [nameError, setNameError] = useState('');
@@ -35,7 +35,7 @@ const SignUp = () => {
     const [emailError, setEmailError] = useState('');
     const [passwordError, setPasswordError] = useState('');
     const [confirmPasswordError, setConfirmPasswordError] = useState('');
-    const [phoneNumberError, setPhoneNumberError] = useState('');
+    //const [phoneNumberError, setPhoneNumberError] = useState('');
     
     const handleChange2 = (e)=>{
         const uppercaseRegExp = /(?=.*?[A-Z])/;
@@ -230,8 +230,8 @@ const SignUp = () => {
                 <span>
                       
                         {passwordType==='password'? 
-                        <img src={hideP} onClick ={()=>setPasswordType('text')} className='icon' color='#239ED9' />
-                        :<img src={showP} onClick ={()=>setPasswordType('password')}className='icon' color='#239ED9' />}
+                        <img src={hideP} onClick ={()=>setPasswordType('text')} className='icon' color='#239ED9' alt=''/>
+                        :<img src={showP} onClick ={()=>setPasswordType('password')}className='icon' color='#239ED9' alt=''/>}
                 </span>
                 <img src={lock} alt='password' className='lock' />
 
@@ -257,8 +257,8 @@ const SignUp = () => {
                         />
                         <span>
                         {passwordType1==='password'? 
-                        <img src={hideP} onClick ={()=>setPasswordType1('text')} className='icon' color='#239ED9' />
-                        :<img src={showP} onClick ={()=>setPasswordType1('password')}className='icon' color='#239ED9' />}
+                        <img src={hideP} onClick ={()=>setPasswordType1('text')} className='icon' color='#239ED9' alt=''/>
+                        :<img src={showP} onClick ={()=>setPasswordType1('password')}className='icon' color='#239ED9' alt=''/>}
                         </span>
                     <img src={lock} alt='password' className='lock' />
                     </div>

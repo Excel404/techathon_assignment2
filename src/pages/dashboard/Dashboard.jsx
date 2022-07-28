@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './dashboard.css'
 import personIcon from '../../images/1x/personicon.svg'
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
   const [user, setUser]= useState();

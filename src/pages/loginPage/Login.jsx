@@ -70,8 +70,8 @@ const Login = () => {
                 <span>
                       
                       {passwordType==='password'? 
-                      <img src={hideP} onClick ={()=>setPasswordType('text')} className='icon' color='#239ED9' />
-                      :<img src={showP} onClick ={()=>setPasswordType('password')}className='icon' color='#239ED9' />}
+                      <img src={hideP} onClick ={()=>setPasswordType('text')} className='icon' color='#239ED9' alt=''/>
+                      :<img src={showP} onClick ={()=>setPasswordType('password')}className='icon' color='#239ED9' alt=''/>}
               </span>
                 <img src={lock} alt='password' className='img' />
                 </div>
