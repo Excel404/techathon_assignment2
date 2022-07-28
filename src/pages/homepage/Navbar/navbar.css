@@ -1,0 +1,37 @@
+.NavBarDiv{
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    gap:50%;
+    background-color:#1A1F1A;
+}
+.NavBarDiv .image{
+
+    width:18%;
+    margin-top: 0rem;
+    margin-left:4rem;
+}
+.NavBarDiv .navlink{
+    color: whitesmoke;
+    text-decoration: none;
+ 
+}
+@media (max-width:767px) {
+    .NavBarDiv{
+        gap:35%;
+        width: 100%;
+    }
+    .NavBarDiv .image{
+        
+        width:25%;
+        margin-left: 1rem;
+    }
+    .NavBarDiv .navlink{
+        color: whitesmoke;
+        text-decoration: none;
+        
+        font-size: 12px;
+        
+    }
+}
