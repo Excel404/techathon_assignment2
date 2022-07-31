@@ -2,8 +2,8 @@
     width:30%;
     height: 100vh;
     background-color: white;
-    color: blue;
-    box-shadow: 0px 2px 5px 0px blue;
+    color: #0071BC;
+    box-shadow: 0px 2px 5px 0px #0071BC;
 }
 .leftDiv div .img{
     width: 80px;
@@ -20,12 +20,12 @@
     padding: 0.5rem;
 }
 .leftDiv .link:hover{
-    background-color: rgb(84, 84, 235);
+    background-color: #0071BC ;
     color:white;
     padding: 0.5rem;
 }
 .leftDiv .link:active{
-    background-color: rgb(84, 84, 235);
+    background-color: #0071BC;
     color:white;
     padding: 0.5rem;
 }
@@ -37,10 +37,55 @@
     font-size: 0.7rem;
 }
 .rightDiv{
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.welcomeDiv{
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 2rem;
     text-align: center;
     
+    
 }
-.rightDiv h1{
-    color: blue;
+.welcomeDiv h1{
+    color: #0071BC;
+}
+.profileDiv .img{
+    width: 100px;
+    margin-left: 2rem;
+}
+.profileDiv{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.profileDiv p{
+    margin-top: 1rem;
+    color: #0071BC;
+}
+.profileDiv span{
+    color: black;
+    
+}
+@media (max-width:767px) {
+    .leftDiv div h1{
+        font-size: 1rem;
+    }    
+    .leftDiv div p{
+        font-size: 0.5rem;
+    }
+    .rightDiv{
+        color: #0071BC;
+    }
+    .profileDiv{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .profileDiv p{
+        margin-top: 1rem;
+    }
+    .profileDiv span{
+        color: black;
+        
+    }
 }

@@ -79,7 +79,7 @@ const Login = () => {
             </div>
         <button onClick={submitForm} onSubmit={submitForm}> Login</button>
         </form>
-        <p style={{textAlign:'center'}}>Don't have an account? <Link to ={'/signup'}>SignUp</Link></p>
+        <p style={{textAlign:'center'}}>Don't have an account? <Link style={{color:'#0071BC'}} to ={'/signup'}>SignUp</Link></p>
 
     </div>
   )

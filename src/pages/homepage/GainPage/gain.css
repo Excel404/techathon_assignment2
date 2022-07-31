@@ -1,7 +1,7 @@
 .registrationDiv{
-    background-color: rgb(20, 221, 221);
+    background-color:#0071BC;
     align-items:center ;
-    
+    color: white;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
     
@@ -42,5 +42,24 @@
     .gainDiv{
         width:100%
     }
+    .gainSubDiv{
+        padding:2rem;
+    }
+    .registrationDiv p{
+        font-size: 13px;
+    }
+    .gainSubDiv .tagline{
+        font-size: smaller;
+    }
+    .gainSubDiv .heading{
+        font-family: 'openSans';
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        width:100%;
+        margin-bottom: 0;
+    }
+    
     
 }

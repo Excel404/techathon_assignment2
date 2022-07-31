@@ -6,7 +6,7 @@
 }
 .signupDiv h1{
     text-align: center;
-    color: blue;
+    color: #0071BC;
 }
 .signUpForm{
     margin: auto;
@@ -31,10 +31,10 @@
 
 }
 select option:active{
-    background-color:blue ;
+    background-color:#0071BC ;
 }
 select:focus{
-    box-shadow: 0px 0px 5px 0px blue;
+    box-shadow: 0px 0px 5px 0px #0071BC;
     outline: none;
 }
 select{
@@ -51,8 +51,8 @@ select{
     border: 1px solid gray;
 }
 .innerDiv input:focus{
-    border-color: blue;
-    box-shadow: 0px 0px 5px 0px blue;
+    border-color: #0071BC;
+    box-shadow: 0px 0px 5px 0px #0071BC;
     outline: none;
 }
 .signUpForm button{
@@ -62,7 +62,7 @@ select{
     padding-bottom:0.5rem;
     border-radius: 4px;
     border-color: transparent;
-    background-color: blue;
+    background-color: #0071BC;
     color: white;
 }
 .innerDiv{

@@ -265,11 +265,11 @@ const SignUp = () => {
                 
                 { !confirmPasswordIsValid? <span className ='error'>{confirmPasswordError}</span>:''}
             </div>
-            <p style={{textAlign:'center',color:'blue',fontSize:'1rem',marginTop:'1.5rem'}}>By signing up, you agree to our <Link to={'/terms'}>terms and services</Link></p>
+            <p style={{textAlign:'center',fontSize:'1rem',marginTop:'1.5rem'}}>By signing up, you agree to our <Link style={{color:'#0071BC'}} to={'/terms'}>terms and services</Link></p>
             <button onClick ={submitForm}onSubmit={submitForm}>SignUp</button>
 
         </form>
-        <p style={{textAlign:'center',marginTop:'1rem'}}>Already have an account? <Link to ={'/login'}>Login</Link></p>
+        <p style={{textAlign:'center',marginTop:'1rem'}}>Already have an account? <Link style={{color:'#0071BC'}} to ={'/login'}>Login</Link></p>
     </div>
   )
 }

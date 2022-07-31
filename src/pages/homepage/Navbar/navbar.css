@@ -12,6 +12,9 @@
     margin-top: 0rem;
     margin-left:4rem;
 }
+.NavBarDiv ul li{
+    list-style: none;
+}
 .NavBarDiv .navlink{
     color: whitesmoke;
     text-decoration: none;
