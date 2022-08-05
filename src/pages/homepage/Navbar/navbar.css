@@ -22,7 +22,7 @@
 }
 @media (max-width:767px) {
     .NavBarDiv{
-        gap:35%;
+        gap:30%;
         width: 100%;
     }
     .NavBarDiv .image{
